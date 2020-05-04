@@ -278,7 +278,7 @@ dc <- f_dea3
 ## Download the worldcities Excel file to your own computer, then read into R, into the d data frame. The corresponding content 04b.Rmd file shows how to download to your own computer
 
 ```{r}
-W <- Read("")
+W <- Read("C:\Users\vsanj\OneDrive\Documents\GIT\Covid_Viz_usingR\Dataset\worldcities.csv")
 ```
 
 ## Not necessary, but convenient. The worldcities data lists the state as admin_name. Change the variable name to state. One way to do this is directly in your downloaded Excel data file. The other is with R after reading the data. Your choice. The R directions are listed here. The vector names(d) lists the names of the d data frame. We want to change one of them. We need the number of the column that is labeled admin_name. To get that column number, use the base R which() function. Then refer to that specific column number in the names vector and assign a new name.
